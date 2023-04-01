@@ -1,0 +1,181 @@
+body {
+    background-color: #F7F7F7;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* Estilizando cabecalho */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Dimensionando imagem de logo */
+.header-image{
+    height: 10vh;
+    border-radius: 50%;
+}
+
+/* Dimensionando grupo de links */
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilizando links */
+.header-links a{
+    color: #8B008B;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Estilizando fonte e cor do titulo */
+#header-title{
+    font-family: 'Sarala', sans-serif;
+    font-size: 27px;
+    color: #9400D3;
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    color: #9400D3;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #E10600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+
+body {
+    background-color: #F7F7F7;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #E10600;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    background-color: #E10600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Estilos para todas as tabelas */
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Estilos para os cabeçalhos das tabelas */
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para as células das tabelas */
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para as linhas pares das tabelas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para a primeira tabela */
+#tabela1 th {
+    background-color: #8B008B;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tabela1 td {
+    text-align: center;
+}
+
+/* Estilos para a segunda tabela */
+#tabela2 th {
+    background-color: #FF00FF;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tabela2 td {
+    text-align: center;
+}
+
+/* Estilos para a terceira tabela */
+#tabela3 th {
+    background-color: #EE82EE;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tabela3 td {
+    text-align: center;
+}

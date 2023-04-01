@@ -1,0 +1,97 @@
+<!-- Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Data: 01/04/2023
+Programação web-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+
+    <link rel="stylesheet" href="style.css">
+	<!-- Inclusão do Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Inclusão do CSS personalizado -->
+	<style>
+		
+	</style>
+</head>
+<body>
+
+    <div class="navbar header">
+
+        <!-- Tag para imagem -->
+        <img src="images/img_moto.png" alt="logo" class="header-image" /><br>
+            
+        <!-- Tag para titulo -->
+        <h1 id="header-title">Motos</h1>
+
+        <!-- Tag de lista não ordernada -->
+        <nav class="d-flex align-items-center header-links">
+            <a href="index.html">Ínicio</a>
+            <a href="formulario.html">Formulário</a>
+            <a href="tabela.html">Tabelas</a>
+            <a href="imagens.html">Imagens</a>
+            <a href="menu.html">Menu</a>
+        </ul>
+    </div>
+
+	<div class="container">
+		<h3 class="text-center my-5">Formulário</h3>
+		<form action="processar_formulario.php" method="post">
+			<!-- Campo de entrada de texto para o nome da moto -->
+			<div class="form-group">
+				<label for="nome">Nome da moto:</label>
+				<input type="text" class="form-control" id="nome" name="nome" required>
+			</div>
+
+			<!-- Campo de entrada de texto para o nome da marca -->
+			<div class="form-group">
+				<label for="num_moto">Marca da moto:</label>
+				<input type="text" class="form-control" id="num_moto" name="num_moto" required>
+			</div>
+
+			<!-- Caixa de seleção para selecionar a marca desejada -->
+			<div class="form-group">
+				<label for="equipe">Marcas disponiveis:</label>
+				<select class="form-control" id="mc_disponivel" name="mc_disponivel">
+					<option value="Honda">Honda</option>
+					<option value="Yamaha">Yamaha</option>
+					<option value="Kawasaki">Kawasaki</option>
+					<option value="KTM">KTM</option>
+					<option value="Suzuki">Suzuki</option>
+				</select>
+			</div>
+
+			<!-- Botões de opção para selecionar para que ambiente a moto é -->
+			<div class="form-group">
+				<label>Para qual cenário é a moto:</label>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="posicao" id="urbano" value="urbano">
+					<label class="form-check-label" for="urbano">Urbano</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="posicao" id="rural" value="rural">
+					<label class="form-check-label" for="rural">Rural</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="posicao" id="para_viagem" value="para_viagem">
+					<label class="form-check-label" for="para_viagem">Para viagens</label>
+				</div>
+			</div>
+
+			<!-- Checkbox para concordar com os termos de uso -->
+			<div class="form-check">
+				<input class="form-check-input" type="checkbox" id="termos_uso" name="termos_uso" required>
+				<label class="form-check-label" for="termos_us">Aceito os termos</label>
+            </div>
+
+            <div class="form-check">
+                <button style="margin-left: 50%;" class="btn btn-success">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

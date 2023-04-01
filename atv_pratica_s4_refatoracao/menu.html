@@ -1,0 +1,93 @@
+<!-- Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Data: 01/04/2023
+Programação web-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+	<!-- Link para o CSS do Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	
+    <div class="navbar header">
+
+        <!-- Tag para imagem -->
+        <img src="images/img_moto.png" alt="logo" class="header-image" /><br>
+            
+        <!-- Tag para titulo -->
+        <h1 id="header-title">Motos</h1>
+
+        <!-- Tag de lista não ordernada -->
+        <nav class="d-flex align-items-center header-links">
+            <a href="index.html">Ínicio</a>
+            <a href="formulario.html">Formulário</a>
+            <a href="tabela.html">Tabelas</a>
+            <a href="imagens.html">Imagens</a>
+            <a href="menu.html">Menu</a>
+        </ul>
+    </div>
+
+	<!-- tag para criar um container-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mb-4">
+
+				<!-- Criando subtitulo-->
+				<h2>Modelos de motos</h2>
+
+				<!-- inserindo tabelas-->
+				<table class="table table-striped">
+				  <thead>
+				    <tr>
+
+					  <!-- inserindo dados na tabela-->
+				      <th scope="col">Marca</th>
+				      <th scope="col">Modelo</th>
+				      <th scope="col">0 a 100km/hr</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">Honda</th>
+				      <td>CG-160</td>
+				      <td>20 segundos</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Yamaha</th>
+				      <td>XT660</td>
+				      <td>10 segundos</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Kawasaki</th>
+				      <td>Z1000</td>
+				      <td>4 segundos</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="col-md-4 mb-4">
+				<img src="images/img_menu.png" alt="Imagem" class="img-fluid rounded">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 mb-4">
+				<h2>Formulário de Pesquisa</h2>
+				<form action="#" method="get">
+					<div class="form-group">
+						<label for="pesquisa">Pesquisa:</label>
+						<input type="text" class="form-control" id="pesquisa" name="pesquisa">
+					</div>
+					<button type="submit" class="btn btn-primary">Pesquisar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
