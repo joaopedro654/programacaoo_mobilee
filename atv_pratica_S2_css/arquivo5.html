@@ -1,0 +1,170 @@
+<!--Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Programação web
+09/03/2023-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--O head providencia informações gerais sobre o documento, incluindo título e links para script-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="arquivo2.css" media="screen">
+
+
+    <!-- a tag style adiciona estilização a página-->
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<!-- O body representa o conteúdo de um documento html-->
+<body>
+
+    <!-- h1 se refere ao título principal da pagina-->
+    <h1>Motos</h1>
+    <br>
+
+    Para saber um pouco mais sobre motos,
+
+    <!--a tag href serve para fazer referência a uma url externa, seja um link ou arquivo-->
+    <a href="arquivo1.html">clique aqui</a>
+
+    <br>
+
+    Para ir para o formulário,
+    <a href="arquivo2.html">clique aqui</a>
+
+    <br>
+
+    Para ir para tabelas de motos,
+    <a href="arquivo3.html">clique aqui</a>
+
+    <br>
+
+    Para ver imagens de algumas motos,
+    <a href="arquivo4.html">clique aqui</a>
+    <br>
+    <br>
+    <br>
+
+    <!-- a tag h2 são vinculadas aos subtítulos-->
+    <h2>Tabela de motos honda</h2>
+    <br>
+
+    <!-- a tag table insere uma tabela-->
+    <table>
+
+        <!-- a tag tr define uma linha numa tabela-->
+        <tr>
+
+            <!-- a tag th define uma célula cabeçalho do grupo de células de sua tabela-->
+            <th>Modelo</th>
+            <th>Ano</th>
+            <th>0-100 km/hr</th>
+        </tr>
+        <tr>
+
+            <!-- a tag td cria uma coluna para inserção de conteúdos-->
+            <td>cg 150</td>
+            <td>2010</td>
+            <td>15 segundos</td>
+        </tr>
+        <tr>
+            <td>bros</td>
+            <td>2010</td>
+            <td>13 segundos</td>
+        </tr>
+        <tr>
+            <td>biz</td>
+            <td>2012</td>
+            <td>22 segundos</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div>
+        <h1 id="titulo">Responda ao questionário</h1>
+        <p id="subtitulo">Complete as informações a seu gosto:</p>
+        <br>
+    </div>
+
+    <!-- Início do formulário -->
+    <form>
+
+        <fieldset class="grupo">
+            <!-- Campo para escolher a marca da moto -->
+            <div class="campo">
+                <label for="nome"><strong>Marca</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo para escolher o modelo da moto -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Modelo</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+        <!-- Campo de email com-->
+        <div class="campo">
+            <label for="email"><strong>Digite seu "email" para mandarmos alguns modelos</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <!-- Campo de seleção para o intuito da moto -->
+        <div class="campo">
+            <label><strong>Qual o intuito da sua moto?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Para cidade
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Para viagens
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Para o meio rural
+            </label>
+        </div>
+
+        <!-- Campo para verificar se possui CNH -->
+        <div class="campo">
+            <label for="senioridade"><strong>Possui CNH?</strong></label>
+            <select id="senioridade" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Sim</option>
+              <option>Não</option>
+            </select>
+        </div>
+
+        <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+    </form>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Imagem de um modelo de moto da marca Honda:</h2>
+        <br>
+
+        <!-- a tag h3 informa o assunto da página para o mecanismo de busca-->
+        <h3>CG 160</h3>
+
+        <!-- a tag img faz a inserção de imagens-->
+        <img src="https://amauri.com.br/storage/app/uploads/public/630/3e2/2d0/6303e22d0f967075066327.png"
+    width="300pxpx" >
+    </form>
+
+</body>
+</html>

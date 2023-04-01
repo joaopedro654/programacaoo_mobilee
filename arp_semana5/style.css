@@ -1,0 +1,64 @@
+/*--Dev: João Pedro Braga Gomes
+Matrícula: 2110157
+Programação web
+Data: 28/03/2023*/
+
+
+/* Inicia os elementos da pagina com definições iniciais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Configurando a fonte e o fundo para corpo da pagina */
+body{
+    font-size: 100%;
+    /* background: linear-gradient(68.15deg, #23232f 16.62%, #527c8e 85.61%);  */
+
+    background-color: #E6E6FA; /* lilás claro */
+}
+
+/* Estilizando cabeçalho */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Dimensionando a imagem da logo */
+.header-image{
+    height: 15vh;
+    border-radius: 50%;
+}
+
+/* Dimensionando os grupo de links da pagina */
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilizando os links */
+.header-links a{
+    color: rgb(128, 0, 128);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Estilizando fonte e a cor do titulo */
+#header-title{
+    font-family: 'Sarala', sans-serif;
+    font-size: 27px;
+    color: #ba55d3;
+    font-weight: 600;
+}
+
+
+.container, .form-group, input, select{
+    text-align: center;
+}

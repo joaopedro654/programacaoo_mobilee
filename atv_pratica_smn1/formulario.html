@@ -1,0 +1,83 @@
+<!--Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Programação web
+09/03/2023-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--O head providencia informações gerais sobre o documento, incluindo título e links para script-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- O body representa o conteúdo de um documento html-->
+<body>
+
+    <!-- O div é um container genérico para conteúdo de fluxo-->
+    <div>
+        
+            <!-- o h1 é atribuido ao título principal do conteúdo-->
+        <h1>Responda ao questionário</h1>
+
+            <!-- O elemento P representa a colocação de um parágrafo-->
+        <p>Complete as informações ao seu gosto, referente a motos:</p>
+
+        <!-- o elemento br salta linha-->
+        <br>
+    </div>
+
+    <!-- form permite a criação de documentos interativos no www-->
+    <form>
+
+        <!-- fieldset usado para agrupar elementos-->
+        <fieldset>
+            <div>
+
+                <!-- a tag label especifica qual rótulo do input-->
+                <label>Marca</label>
+
+                <!-- a tag input é usada para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Modelo</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+
+        <div>
+            <label>Qual o intuito da sua moto?</label>
+            <label>
+                <input type="radio" name="devweb" value="front-end">Para cidade
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="back=end">Para o meio rural
+            </label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Para viajens
+            </label>
+       </div>
+
+       <div>
+        <label>Possui CNH?</label>
+
+        <!-- a tag select representa um controle que apresenta um menu de opções-->
+        <select id="senioridade">
+
+            <!-- a tag option representa as opções dentro de um menu-->
+            <option>Sim</option>
+            <option>Não</option>
+            </select>
+       </div>
+
+       <!-- a tag button permite introduzir botões a nossa página html-->
+       <button type="submit">Concluído</button>
+    </form>
+
+</body>
+</html>

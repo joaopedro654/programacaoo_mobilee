@@ -1,0 +1,97 @@
+<!--Dev: João Pedro Braga Gomes
+Matrícula: 2110157
+Programação web
+Data: 28/03/2023-->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Pacientes</title>
+
+  <!-- tag para importar o Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- tag para importar o Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="navbar header">
+
+        <!-- Tag para imagem -->
+        <img src="imagem2.jpg" alt="logo" class="header-image" /><br>
+            
+        <!-- Tag para titulo -->
+        <h1 id="header-title">Clínica Bem Estar</h1>
+
+        <!-- Tag de lista não ordernada -->
+        <nav class="d-flex align-items-center header-links">
+            <a href="index.html">Cadastro</a>
+            <a href="index2.html">Agendar</a>
+            <a href="index3.html">Pacientes</a>
+            <a href="index4.html">Agendamentos</a>
+            <a href="index5.html">Medicamentos</a>
+        </ul>
+    </div>
+
+
+    <div class="container">
+
+        <!-- tag para subtitulo-->
+        <h2>Consulta de Pacientes</h2>
+
+        <div class="form-group">
+        <label for="busca">Buscar por:</label>
+        <input type="text" class="form-control" id="busca" placeholder="CPF ou nome do paciente">
+        </div>
+
+        <table class="table table-hover">
+
+        <!-- tag para linha de cabeçalho html-->
+        <thead>
+            <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Data de Nascimento</th>
+            <th>Endereço</th>
+            <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+            <!-- taga para criação de de coluna com inserção de conteúdos-->
+            <td>Pedro Neto</td>
+            <td>523.656.789-00</td>
+            <td>08/05/1995</td>
+            <td>Rua 40, 222</td>
+            <td>(62) 95472-8546</td>
+            </tr>
+            <tr>
+            <td>Laura Silva</td>
+            <td>587.654.721-00</td>
+            <td>03/05/2000</td>
+            <td>Rua 30, 333</td>
+            <td>(62) 96472-5438</td>
+            </tr>
+            <tr>
+            <td>Thiago Henrique</td>
+            <td>556.689.723-00</td>
+            <td>06/07/1978</td>
+            <td>Rua 60, 444</td>
+            <td>(62) 71346-9588</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

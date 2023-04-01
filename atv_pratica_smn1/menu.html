@@ -1,0 +1,138 @@
+<!--Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Programação web
+09/03/2023-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--O head providencia informações gerais sobre o documento, incluindo título e links para script-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- a tag style adiciona estilização a página-->
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<!-- O body representa o conteúdo de um documento html-->
+<body>
+
+    <!-- h1 se refere ao título principal da pagina-->
+    <h1>Motos</h1>
+
+    Para saber um pouco mais sobre motos,
+
+    <!--a tag href serve para fazer referência a uma url externa, seja um link ou arquivo-->
+    <a href="index.html">clique aqui</a>
+
+    <br>
+
+    Para ir para o formulário,
+    <a href="formulario.html">clique aqui</a>
+
+    <br>
+
+    Para ir para tabelas de motos,
+    <a href="tabelas.html">clique aqui</a>
+
+    <br>
+
+    Para ver imagens de algumas motos,
+    <a href="imagens.html">clique aqui</a>
+
+    <!-- a tag h2 são vinculadas aos subtítulos-->
+    <h2>Tabela de motos honda</h2>
+
+    <!-- a tag table insere uma tabela-->
+    <table>
+
+        <!-- a tag tr define uma linha numa tabela-->
+        <tr>
+
+            <!-- a tag th define uma célula cabeçalho do grupo de células de sua tabela-->
+            <th>Modelo</th>
+            <th>Ano</th>
+            <th>0-100 km/hr</th>
+        </tr>
+        <tr>
+
+            <!-- a tag td cria uma coluna para inserção de conteúdos-->
+            <td>cg 150</td>
+            <td>2010</td>
+            <td>15 segundos</td>
+        </tr>
+        <tr>
+            <td>bros</td>
+            <td>2010</td>
+            <td>13 segundos</td>
+        </tr>
+        <tr>
+            <td>biz</td>
+            <td>2012</td>
+            <td>22 segundos</td>
+        </tr>
+    </table>
+
+    <!-- a tag h2 são vinculadas aos subtítulos -->
+    <h2>Formulario de sua moto preferida</h2>
+
+    <!-- form permite a criação de documentos interativos no www-->
+    <form>
+
+        <!-- fieldset usado para agrupar elementos-->
+        <fieldset>
+
+            <!-- O div é um container genérico para conteúdo de fluxo-->
+            <div>
+
+                <!-- a tag label especifica qual rótulo do input-->
+                <label>Marca</label>
+
+                <!-- a tag input é usada para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+                <input type="text" name="marca" id="nome">
+            </div>
+
+            <div>
+                <label>Modelo</label>
+                <input type="text" name="modelo" id="sobrenome">
+            </div>
+
+            <div>
+                <label>Ano</label>
+                <input type="text" name="ano">
+            </div>
+
+            <div>
+                <label>Cilindradas</label>
+                <input type="text" name="cilindradas">
+            </div>
+
+        </fieldset>
+
+        <!-- a tag button cria um botão-->
+        <button type="submit">Concluído</button>
+
+        <br>
+
+        <h2>Imagem de um modelo de moto da marca Honda:</h2>
+        <br>
+
+        <!-- a tag h3 informam o assunto da página para o mecanismo de busca-->
+        <h3>CG 160</h3>
+
+        <!-- a tag img faz a inserção de imagens-->
+        <img src="cg160.jpg"
+    width="300pxpx" >
+    </form>
+
+</body>
+</html>
