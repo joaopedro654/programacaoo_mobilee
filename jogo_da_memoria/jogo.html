@@ -1,0 +1,88 @@
+<!-- Aluno: João Pedro Braga Gomes
+Matrícula: 2110157
+Data: 01/04/2023
+Programação web-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Jogo da Memória</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+      <button id="start" onclick="startGame();">INICIAR JOGO</button>
+
+      <div id="timer">01:10</div>W
+    </header>
+
+    <section class="memory-game">
+        <div class="memory-card" data-aeronave="biz">
+          <img class="front-face" src="img/biz.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="biz">
+          <img class="front-face" src="img/biz.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="cg160">
+          <img class="front-face" src="img/cg160.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="cg160">
+          <img class="front-face" src="img/cg160.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="hornet">
+          <img class="front-face" src="img/hornet.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="hornet">
+          <img class="front-face" src="img/hornet.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="xj6">
+          <img class="front-face" src="img/xj6.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="xj6">
+          <img class="front-face" src="img/xj6.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="xt660">
+          <img class="front-face" src="img/xt660.png" Face da Carta="Backbone">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="xt660">
+          <img class="front-face" src="img/xt660.png" Face da Carta="Backbone"> 
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="z1000">
+          <img class="front-face" src="img/z1000.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      
+        <div class="memory-card" data-aeronave="z1000">
+          <img class="front-face" src="img/z1000.png" alt="Face da Carta">
+          <img class="back-face" src="img/capa.png" alt="Verso da Carta">
+        </div>
+      </section>
+
+  <script src="./timer.js"></script>
+  <script src="./scripts.js"></script>
+</body>
+</html>
