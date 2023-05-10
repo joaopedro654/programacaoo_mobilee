@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--O head providencia informações gerais sobre o documento, incluindo título e links para script-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- O body representa o conteúdo de um documento html-->
+<body>
+
+    <!-- h1 se refere ao título principal da pagina-->
+    <h1>Verificação de aprendizagem</h1>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non finibus, tempus iaculis dui. Duis faucibus feugiat diam id rhoncus. Morbi egestas ligula non nunc ullamcorper pharetra.</p>
+
+    <br>
+
+    <!-- a tag h2 são vinculadas aos subtítulos-->
+    <h2>Tabela</h2>
+
+    <!-- a tag table insere uma tabela-->
+    <table>
+
+        <!-- a tag tr define uma linha numa tabela-->
+        <tr>
+
+            <!-- a tag th define uma célula cabeçalho do grupo de células de sua tabela-->
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+
+            <!-- a tag td cria uma coluna para inserção de conteúdos-->
+            <td>João</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Início do formulário -->
+    <form>
+        <fieldset class="grupo">
+
+            <h1>Formulário</h1>
+            
+            <!-- Campo para escolher a marca da moto -->
+            <div class="campo">
+                <label for="nome"><strong>Seu nome</strong></label>
+                <input type="text" name="marca" id="marca"  placeholder="seu nome...">
+            </div>
+
+            <!-- Campo para escolher o modelo da moto -->
+            <div class="campo">
+                <label for="pais"><strong>País</strong></label>
+                <input type="text" name="pais" id="modelo">
+                <option value="brasil"></option>
+
+                <input type="checkbox" name="ativo" id="ativo">
+                <label for = "ativo"> Ativo </label>
+
+                <input type="submit" value="enviar" id="enviar">
+            </div>
+        </fieldset> 
+
+    </form>
+
+</body>
+</html>

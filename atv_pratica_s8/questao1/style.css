@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(237, 226, 226);
+    }
+    
+    h1 {
+    color: black;
+    text-align: left;
+    }
+
+    p {
+        column-count: 2;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+    }
+    
+    table {
+    border-collapse: collapse;
+    width: 40%;
+    border: 1px solid black;
+
+    }
+    
+    th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    }
+    
+    tr:hover {
+    background-color: #f5f5f5;
+    }
+    
+    input[type="text"], select {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    }
+    
+    .campo label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+    
+    fieldset{
+        width: 50%;
+    }
+
+    input[type="submit"], select {
+        background: rgb(46, 218, 46);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 7px;
+        width: 65px;
+    }
+
+   
