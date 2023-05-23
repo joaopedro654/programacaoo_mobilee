@@ -1,0 +1,3 @@
+Neste projeto proposto, primeiramente trabalhamos na criação de um protocolo de comunicação básico utilizando TCP e desenvolvemos tanto um servidor quanto um cliente em Python.Além disso, abordamos a implementação de recursos adicionais, como autenticação de usuários e criptografia de mensagens, e exploramos maneiras de testar a eficiência da aplicação.
+
+É fundamental ter em mente que a segurança é uma preocupação essencial durante a implementação de uma aplicação de rede. É necessário considerar aspectos de segurança, como a proteção contra ataques de negação de serviço (DDoS) e a salvaguarda dos dados transmitidos.

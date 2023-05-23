@@ -1,0 +1,3 @@
+Primeiramente para introduzir recursos de autenticação de usuário ou criptografia de mensagens, é preciso realizar modificações no protocolo de comunicação, adicionando novos tipos e formatos de mensagem. No caso da autenticação de usuário, uma opção é incluir um tipo de mensagem chamado "LOGIN" que contenha o nome de usuário e a senha criptografada.
+
+Já para implementar a criptografia de mensagens, é possível adicionar um tipo de mensagem denominado "ENCRYPTED_MESSAGE" que traga o conteúdo da mensagem criptografado por meio de uma chave compartilhada de criptografia.

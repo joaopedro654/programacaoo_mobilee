@@ -1,0 +1,3 @@
+Para avaliar o desempenho da aplicação em cenários de alta demanda, é possível utilizar ferramentas de teste de carga, como o "Apache JMeter" por exemplo. Essa ferramenta citada anteriormente permite simular a conexão simultânea de diversos usuários ao servidor, enviando mensagens em larga escala.
+
+É crucial assegurar que a aplicação seja capaz de lidar com um tráfego intenso sem ficar sobrecarregada ou instável, garantindo a estabilidade e a eficiência do sistema.

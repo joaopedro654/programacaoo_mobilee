@@ -1,0 +1,27 @@
+Primeiramente o protocolo de comunicação será estabelecido com base no TCP e consistirá em mensagens de texto simples. Cada mensagem será iniciada por um cabeçalho que identificará o tipo e o comprimento da mensagem.
+
+Enquanto o servidor aguarda por mensagens dos clientes, ele processará cada uma de acordo com o seu tipo.
+
+Os tipos de mensagem definidos são:
+
+    LOGIN: Utilizada pelo cliente para autenticar-se no servidor. O conteúdo da mensagem incluirá o nome de usuário e a senha em formato de texto simples.
+
+    LOGOUT: Enviada pelo cliente para desconectar-se do servidor.
+
+    SEND_MESSAGE: Enviada pelo cliente para transmitir uma mensagem para um destinatário específico. O conteúdo da mensagem incluirá o nome do destinatário e o conteúdo da mensagem.
+
+    BROADCAST: Enviada pelo cliente para enviar uma mensagem a todos os usuários conectados. O conteúdo da mensagem incluirá o conteúdo da mensagem a ser transmitida.
+
+    RECEIVE_MESSAGE: Enviada pelo servidor a um cliente para informar que uma nova mensagem foi recebida. O conteúdo da mensagem incluirá o nome do remetente e o conteúdo da mensagem.
+
+    ERROR: Enviada pelo servidor para notificar um erro ocorrido. O conteúdo da mensagem incluirá uma descrição do erro.
+
+O formato de cada mensagem seguirá a estrutura abaixo:
+
+
+|------------------|------------------|------------------|
+|     Tipo (8)         |   Comprimento (8)    | Corpo da mensagem   |
+|------------------|------------------|------------------|
+
+
+O campo "Tipo" representará um dos tipos de mensagem mencionados anteriormente. O campo "Comprimento" indicará o tamanho do corpo da mensagem em bytes. O campo "Corpo da mensagem" conterá os dados específicos da mensagem.
